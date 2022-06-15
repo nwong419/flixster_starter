@@ -1,1 +1,35 @@
+body {
+    background-color: #3F7C85;
+}
+.heading {
+    color: #72F2EB;
+    font-family: 'Fascinate Inline';
+    font-size: 30px;
+}
+.search-bar-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+}
 
+.search-bar-container h4 {
+    color: #72F2EB;
+}
+
+.movie-grid {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Merriweather";
+    font-size: 10px;
+}
+
+#movie-info {
+    max-width: 300px;
+}
+img {
+    border: 10px solid #FF5F5D;
+}
