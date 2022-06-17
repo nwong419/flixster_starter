@@ -6,21 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flixter</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Fascinate Inline" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://pagecdn.io/lib/easyfonts/fonts.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/87f920c1d9.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
     <div class="heading">
         <h1>Flixster</h1>
     </div>
+    <span class="search-header"><h3>Search Movies</h3></span>
     <div class="search-bar-container">
-        <h4>Search Movies</h4>
-        <input type="text" placeholder="Search for Movies">
-        <input type="button" value="Search" class="search-button" />
+        <form class="search-bar">
+            <input id="bar" type="text" placeholder="Search">
+            <button id="search-button" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+        <div class="previous">
+            <button id="default" type="button">Get Previous Movies</button>
+        </div>
     </div>
 
-    <div class="movie-grid"></div>
+    <div class="movie-grid">
+    </div>
+
+    <div class="bottom-button">
+        <button id="more" type="button">Get More Movies</button>
+    </div>
+    <!--modal-->
+    <div class="movie-modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-container">
+                <div class="modal-runtime"></div>
+                <div class="modal-release-date"></div>
+                <div class="modal-genre"></div>
+            </div>
+            <hr class="rounded">
+            <iframe id="youtube" type="text/html" src="about:blank"></iframe>
+            <h3><b>Summary</b></h3>
+            <div class="modal-description"></div>
+        </div>
+    </div> 
+
+
     <script src="script.js"></script>
+    
 </body>
 </html>

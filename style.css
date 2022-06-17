@@ -14,22 +14,96 @@ body {
     column-gap: 10px;
 }
 
-.search-bar-container h4 {
+.search-header {
     color: #72F2EB;
 }
 
 .movie-grid {
+    padding: 1em;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    gap: 20px;
     justify-content: space-around;
+}
+.movie-card {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
     font-family: "Merriweather";
     font-size: 10px;
+    background-color: #72F2EB;
+    align-items: center;
+    border-radius: 15%;
+}
+.movie-card img {
+    width:auto;
+    border-radius: 15%;
+}
+.movie-info {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+img:hover {
+    transform: translateY(-10px);
+    transition: 0.2s all linear;
 }
 
-#movie-info {
-    max-width: 300px;
+/*modal background*/
+.movie-modal {
+    /*flex is on the children of the parent*/
+    display: flex; /* Hidden by default */
+    position: fixed; /*Stay in place */
+    z-index: 1; /*Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /*Enable scroll if needed*/
+    background-color: rgba(0,0,0,0.9); /*black with opacity */
+    align-items: center;
+    justify-content: center;
 }
-img {
-    border: 10px solid #FF5F5D;
+
+.modal-content {
+    background-color: #fefefe;
+    padding: 30px;
+    border: 1px solid #888;
+    width: 40%;
+   font-family: "Krona One"
+}
+
+.modal-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.bottom-button{
+    display: flex;                 
+    flex-wrap: wrap;              
+    justify-content: center; 
+}
+
+.hidden {
+    display: none;
 }
