@@ -10,30 +10,30 @@
     <script src="https://kit.fontawesome.com/87f920c1d9.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
-    <div class="heading">
-        <h1>Flixster</h1>
+    <div class="heading-container">
+        <div class="heading">
+            <h1>Flixster</h1>
+        </div>
+        <span class="search-header"><h3>Search Movies</h3></span>
     </div>
-    <span class="search-header"><h3>Search Movies</h3></span>
     <div class="search-bar-container">
         <form class="search-bar">
-            <input id="bar" type="text" placeholder="Search">
+            <input id="search-input" type="text" placeholder="Search">
             <button id="search-button" type="submit">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </button>
         </form>
         <div class="previous">
-            <button id="default" type="button">Get Previous Movies</button>
+            <button id="close-search-btn" type="button">Close Search</button>
         </div>
     </div>
 
-    <div class="movie-grid">
+    <div class="movies-grid">
     </div>
 
     <div class="bottom-button">
-        <button id="more" type="button">Get More Movies</button>
+        <button id="load-more-movies-btn" type="button">Get More Movies</button>
     </div>
-    <!--modal-->
     <div class="movie-modal hidden">
         <div class="modal-content">
             <span class="close">&times;</span>
@@ -42,8 +42,10 @@
                 <div class="modal-release-date"></div>
                 <div class="modal-genre"></div>
             </div>
-           
-            <iframe id="youtube" type="text/html" src="about:blank"></iframe>
+           <hr class="rounded">
+           <div class="video-container">
+            <iframe id="youtube" type="text/html" src="about:blank" allow="fullscreen"></iframe>
+           </div>
             <h3><b>Summary</b></h3>
             <div class="modal-description"></div>
         </div>

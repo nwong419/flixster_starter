@@ -2,9 +2,9 @@
 
 ## Week 1 Assignment: Flixster
 
-Submitted by: **NAME**
+Submitted by: **Nicole Wong**
 
-Estimated time spent: **#** hours spent in total
+Estimated time spent: **14** hours spent in total
 
 Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
@@ -50,11 +50,11 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+Topics such as asynchronous Javascript, interacting with DOM elements, and utilizing API calls helped me develop the project for this week. As we needed to use the Movie Database API to retrieve the latest movies and also make the screen interactive, it was helpful to learn the concepts prior to implementing it. It took some time for me to experiment with CSS and different layouts so that the positioning of the images and text would appear centered on the page. As I have limited experience in coding with JavaScript, I felt unprepared to implement the 
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+If I had more time, I would have used consistent styling such as a color theme and common font families. I would have also chosen to change the display of the modal popup so that the video frame is larger and the extra details only appear when a button is clicked so that the user is not overloaded with information. Right now, my movie grid does not wrap certain titles that are longer so the border is not consistent. 
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 

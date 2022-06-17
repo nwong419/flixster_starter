@@ -1,27 +1,36 @@
 body {
     background-color: #3F7C85;
 }
+
 .heading {
+    display: flex;
     color: #72F2EB;
     font-family: 'Fascinate Inline';
     font-size: 30px;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
+
 .search-bar-container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     column-gap: 10px;
 }
 
 .search-header {
+    display: flex;
     color: #72F2EB;
+    font-family: 'Fascinate Inline';
+    font-size: 20px;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-h2 {
-    flex-wrap: wrap;
-}
-.movie-grid {
+.movies-grid {
     padding: 1em;
     display: flex;
     flex-flow: row wrap;
@@ -29,6 +38,7 @@ h2 {
     gap: 20px;
     justify-content: space-around;
 }
+
 .movie-card {
     display: flex;
     flex-flow: column wrap;
@@ -39,33 +49,27 @@ h2 {
     align-items: center;
     border-radius: 15%;
 }
+
 .movie-card img {
     width:auto;
     border-radius: 15%;
 }
-.movie-info {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-}
+
 img:hover {
     transform: translateY(-10px);
     transition: 0.2s all linear;
 }
 
-/*modal background*/
 .movie-modal {
-    /*flex is on the children of the parent*/
-    display: flex; /* Hidden by default */
-    position: fixed; /*Stay in place */
-    z-index: 1; /*Sit on top */
+    display: flex; 
+    position: fixed;
+    z-index: 1; 
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: auto; /*Enable scroll if needed*/
-    background-color: rgba(0,0,0,0.9); /*black with opacity */
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.9);
     align-items: center;
     justify-content: center;
 }
@@ -84,6 +88,24 @@ img:hover {
     justify-content: space-evenly;
     font-size: 15px;
 }
+
+#movie-info {
+    display: flex;
+    border-radius: 15%;
+    flex-flow: column wrap;
+    justify-content: center;;
+    align-items: center;
+    font-size: 10px;
+}
+
+.movie-votes {
+    font-size: 15px;
+}
+.movie-title {
+    display: flex;
+    flex: wrap;
+}
+
 hr.rounded {
     border-top: 8px solid #bbb;
     border-radius: 5px;
@@ -109,4 +131,25 @@ hr.rounded {
 
 .hidden {
     display: none;
+}
+
+.video-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr.rounded {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.fa-star {
+    color:#3F7C85;
+}
+
+input {
+    width: 400px;
 }
