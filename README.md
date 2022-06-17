@@ -1,5 +1,3 @@
-📝 `NOTE` Use this template to initialize the contents of a README.md file for your application. As you work on your assignment over the course of the week, update the required or stretch features lists to indicate which features you have completed by changing `[ ]` to `[x]`. (🚫 Remove this paragraph before submitting your assignment.)
-
 ## Week 1 Assignment: Flixster
 
 Submitted by: **Nicole Wong**
@@ -41,11 +39,7 @@ Deployed Application (optional): [Flixster Deployed Site](https://youtu.be/mP21D
 - [ ] Implement anything else that you can get done to improve the app functionality!
 
 ### Walkthrough Video
-
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
-
-`ADD_EMBEDDED_CODE_HERE`
-
+https://user-images.githubusercontent.com/65055587/174411841-b47c37b6-215a-4cfc-acf9-3582b7b40cb8.mp4
 ### Reflection
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
@@ -58,7 +52,7 @@ If I had more time, I would have used consistent styling such as a color theme a
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+I had difficulty with embedding the youtube video because I did not realize that the youtube key was only present in the movie details which required calling the movie details API with the movie id. I noticed that my friend had colored stars based on the ratings which I thought was cool and a "Get More Details" button in the popup. 
 
 ### Open-source libraries used
 
