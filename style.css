@@ -93,7 +93,7 @@ img:hover {
     display: flex;
     border-radius: 15%;
     flex-flow: column wrap;
-    justify-content: center;;
+    justify-content: center;
     align-items: center;
     font-size: 10px;
 }

@@ -4,9 +4,9 @@
 
 Submitted by: **Nicole Wong**
 
-Estimated time spent: **14** hours spent in total
+Estimated time spent: **12** hours spent in total
 
-Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
+Deployed Application (optional): [Flixster Deployed Site](https://youtu.be/mP21DsqEMCY)
 
 ### Application Features
 
