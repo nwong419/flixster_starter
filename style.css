@@ -18,6 +18,9 @@ body {
     color: #72F2EB;
 }
 
+h2 {
+    flex-wrap: wrap;
+}
 .movie-grid {
     padding: 1em;
     display: flex;
