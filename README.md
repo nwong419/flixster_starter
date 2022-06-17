@@ -52,7 +52,7 @@ If I had more time, I would have used consistent styling such as a color theme a
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-I had difficulty with embedding the youtube video because I did not realize that the youtube key was only present in the movie details which required calling the movie details API with the movie id. I noticed that my friend had colored stars based on the ratings which I thought was cool and a "Get More Details" button in the popup. 
+I felt that fetching the data from the public movie database API went pretty smoothly. I had difficulty with embedding the youtube video because I did not realize that the youtube key was only present in the movie details which required calling the movie details API with the movie id. I noticed that my friend had colored stars based on the ratings which I thought was cool and a "Get More Details" button in the popup. 
 
 ### Open-source libraries used
 
