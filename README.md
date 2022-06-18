@@ -39,7 +39,7 @@ Deployed Application (optional): [Flixster Deployed Site]()
 - [ ] Implement anything else that you can get done to improve the app functionality!
 
 ### Walkthrough Video
-https://user-images.githubusercontent.com/65055587/174418259-48187091-33bd-44b8-89fa-737bb637fe44.mp4
+https://user-images.githubusercontent.com/65055587/174419057-a41a934c-01f7-46f8-a73c-c90d352c81d7.mp4
 ### Reflection
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
