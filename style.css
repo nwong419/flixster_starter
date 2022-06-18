@@ -1,12 +1,16 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
-    background-color: #3F7C85;
+    background-color: #1A2238;
 }
 
 .heading {
     display: flex;
-    color: #72F2EB;
-    font-family: 'Fascinate Inline';
-    font-size: 30px;
+    color: #9DAAF2;
+    font-family: 'Open Sans';
+    font-size: 35px;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
@@ -22,8 +26,8 @@ body {
 
 .search-header {
     display: flex;
-    color: #72F2EB;
-    font-family: 'Fascinate Inline';
+    color: #9DAAF2;
+    font-family: 'Open Sans';
     font-size: 20px;
     flex-flow: column wrap;
     justify-content: center;
@@ -32,11 +36,9 @@ body {
 
 .movies-grid {
     padding: 1em;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
+    display: grid;
     gap: 20px;
-    justify-content: space-around;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .movie-card {
@@ -44,15 +46,15 @@ body {
     flex-flow: column wrap;
     justify-content: space-evenly;
     font-family: "Merriweather";
-    font-size: 10px;
-    background-color: #72F2EB;
+    background-color: #fefefe;
     align-items: center;
-    border-radius: 15%;
+    border-radius: 1em;
+    overflow:hidden;
 }
 
 .movie-card img {
-    width:auto;
-    border-radius: 15%;
+    width: 100%;
+    border-radius: 1em;
 }
 
 img:hover {
@@ -79,7 +81,7 @@ img:hover {
     padding: 30px;
     border: 1px solid #888;
     width: 40%;
-   font-family: "Krona One"
+    font-family: "Krona One"
 }
 
 .modal-container {
@@ -95,15 +97,18 @@ img:hover {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    font-size: 10px;
+    overflow: hidden;
+    max-width: 100%;
+    white-space: nowrap;
 }
 
 .movie-votes {
     font-size: 15px;
 }
 .movie-title {
-    display: flex;
-    flex: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 hr.rounded {
@@ -147,7 +152,7 @@ hr.rounded {
 }
 
 .fa-star {
-    color:#3F7C85;
+    color:#F4DB7D;
 }
 
 input {

@@ -27,6 +27,7 @@ var resetBoolean = false;
 
 //code for search functionality 
 async function handleFormSubmit(event) {
+    pageIndex = 1;
     //prevent form from redirecting the page
     event.preventDefault();
     //clear the results page 
@@ -95,7 +96,7 @@ async function handleClick(id) {
 function populateHTML(title, vote_average, poster_path) {
     return `
         <div id="movie-info">
-            <h2 class="movie-title">${title}</h2>
+            <h3 class="movie-title">${title}</h3>
             <h4 class="movie-votes">${vote_average}<i class="fa-solid fa-star"></i></h4>
         </div>
         <img class="movie-poster" src="${IMGURL}${poster_path}" alt="${title}" />
