@@ -32,16 +32,15 @@ Deployed Application (optional): [Flixster Deployed Site]()
 
 #### STRETCH FEATURES
 
-- [ ] Deploy website using GitHub Pages. 
+- [X] Deploy website using GitHub Pages. 
 - [X] Allow user to view more details about a movie within a popup.
 - [ ] Improve the user experience through CSS & animation.
 - [X] Allow movie video trailers to be played using [embedded YouTube](https://support.google.com/youtube/answer/171780?hl=en)
 - [ ] Implement anything else that you can get done to improve the app functionality!
 
 ### Walkthrough Video
-https://user-images.githubusercontent.com/65055587/174411841-b47c37b6-215a-4cfc-acf9-3582b7b40cb8.mp4
+https://user-images.githubusercontent.com/65055587/174418259-48187091-33bd-44b8-89fa-737bb637fe44.mp4
 ### Reflection
-
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
 Topics such as asynchronous Javascript, interacting with DOM elements, and utilizing API calls helped me develop the project for this week. As we needed to use the Movie Database API to retrieve the latest movies and also make the screen interactive, it was helpful to learn the concepts prior to implementing it. It took some time for me to experiment with CSS and different layouts so that the positioning of the images and text would appear centered on the page. As I have limited experience in coding with JavaScript, I felt unprepared to implement the 
