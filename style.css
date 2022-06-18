@@ -92,14 +92,11 @@ img:hover {
 }
 
 #movie-info {
-    display: flex;
     border-radius: 15%;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
     overflow: hidden;
     max-width: 100%;
     white-space: nowrap;
+    text-align: center;
 }
 
 .movie-votes {
